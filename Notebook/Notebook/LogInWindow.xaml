@@ -1,0 +1,14 @@
+﻿<Window x:Class="Notebook.LogInWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Log in to Notebook!" Height="350" Width="700">
+    <Canvas Margin="10">
+        <TextBlock FontSize="20" FontWeight="Bold" Canvas.Left="90" Canvas.Top="89">LOG IN:</TextBlock>
+        <TextBlock FontSize="16" Width="50" Canvas.Left="107" Canvas.Top="124">login:</TextBlock>
+        <TextBox Name="logintxt" FontSize="16" Width="150" Canvas.Left="162" Canvas.Top="121" />
+        <TextBlock FontSize="16" Width="75" Canvas.Left="76" Canvas.Top="163">password:</TextBlock>
+        <PasswordBox Name="passtxt" FontSize="16" Width="150" Canvas.Left="162" Canvas.Top="163" />
+        <Button Name="backBtn" Canvas.Right="100" Canvas.Top="100" FontSize="18" FontWeight="Bold" Width="100" Click="backBtn_Click" Canvas.Left="492">BACK</Button>
+        <Button Name="exitBtn" Canvas.Right="100" Canvas.Top="165" FontSize="18" FontWeight="Bold" Width="100" Click="exitBtn_Click" Canvas.Left="492">EXIT</Button>
+    </Canvas>
+</Window>
